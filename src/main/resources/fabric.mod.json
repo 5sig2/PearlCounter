@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlcounter",
+  "version": "${version}",
+  "name": "PearlCounter",
+  "description": "Track how many ender pearls someone has thrown. Fork of, and integrated with TotemCounter",
+  "icon": "assets/pearlcounter/icon.png",
+  "authors": [
+    "5Sig"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.sig.pearlcounter.PearlCounter"
+    ],
+    "ukulib": [
+      "dev.sig.pearlcounter.UkulibHook"
+    ]
+  },
+  "mixins": [
+    "pearlcounter.mixins.json",
+    "pearlcounter.totemcompat.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "=1.21.11",
+    "java": ">=21",
+    "fabricloader": ">=0.17",
+    "fabric-resource-loader-v1": "*",
+    "fabric-key-binding-api-v1": "*",
+    "fabric-command-api-v2": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "ukulib": "^1.10.0"
+  },
+  "suggests": {
+    "totemcounter": ">=1.11.2"
+  }
+}

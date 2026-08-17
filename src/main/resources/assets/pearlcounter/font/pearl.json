@@ -1,0 +1,21 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue000": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "pearlcounter:gui/default_pearl.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["●"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "dev.sig.pearlcounter.mixin.compat",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinTotemCounterConfig"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

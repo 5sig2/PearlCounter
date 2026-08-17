@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "dev.sig.pearlcounter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinClientPacketListener",
+    "MixinExperienceBarRenderer",
+    "MixinGui",
+    "MixinGuiIntegrationStart",
+    "MixinPlayer",
+    "MixinPlayerTabOverlay",
+    "MixinTextDisplayRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
