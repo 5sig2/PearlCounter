@@ -60,7 +60,7 @@ Use `/resetpearls` to clear all pearl counts for the current session.
 | Fabric Loader | 0.17 or newer |
 | Fabric API | Compatible 1.21.11 version |
 | Ukulib | 1.10.0 or newer |
-| TotemCounter | 1.11.2 or newer — optional |
+| TotemCounter | 1.11.2 or newer, optional |
 
 
 ## Source and License
